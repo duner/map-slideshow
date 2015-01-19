@@ -1,0 +1,37 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+
+.outer-container {
+  @include outer-container();
+}
+
+#map {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.slide-container {
+  background-color: #fff;
+  height: 80vh;
+  margin-top: 10vh;
+  z-index: 10;
+
+  .full-width {
+    @include span-columns(12 of 12);
+  }
+
+  .half-width {
+    @include span-columns(6 of 12);
+  }
+}
