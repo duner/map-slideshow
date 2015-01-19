@@ -15,8 +15,12 @@
   stroke-opacity: .5;
 }
 
-.land {
+.country {
   fill: #D7D7D7;
+}
+
+.country.active {
+  fill: #777;
 }
 
 .boundary {

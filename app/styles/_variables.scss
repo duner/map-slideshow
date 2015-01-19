@@ -1,0 +1,14 @@
+// Responsive-design Breakpoints
+$default-768: new-breakpoint(min-width 768px);
+$default-480: new-breakpoint(max-width 480px);
+
+$small: new-breakpoint(max-width em(400px));
+$medium: new-breakpoint(min-width em(400px) max-width em(750px));
+$large: new-breakpoint(min-width em(750px));
+
+// Font Families
+$sans-serif: "Proxima-Nova", Helvetica, sans-serif;
+$serif: "ff-meta-serif-web-pro", Georgia, serif;
+
+// Layout Breakpoints
+$medium-to-small: new-breakpoint(max-width em(650px));

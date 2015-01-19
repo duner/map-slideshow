@@ -20,11 +20,18 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="wrapper">
-      <div class="outer-container">
-        <div class="slide-container"></div>
+    <header class="masthead">
+      <div class="logo">
+        <a href="//www.northbynorthwestern.com/"><img class="nbn-logo" src="http://media.northbynorthwestern.com.s3.amazonaws.com/media/img/nbn_logo.svg" alt=""></a>
       </div>
+    </header>
+
+
+    <div class="wrapper">
       <div id="map"></div>
+      <div class="outer-container">
+        <div class="slide-container half-width"></div>
+      </div>
     </div>
 
     <!-- build:js(.) scripts/vendor.js -->
@@ -32,6 +39,7 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/d3/d3.js"></script>
     <script src="bower_components/topojson/topojson.js"></script>
+    <script src="bower_components/d3-geo-projection/d3.geo.projection.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

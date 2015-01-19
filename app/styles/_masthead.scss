@@ -1,0 +1,29 @@
+.masthead {
+  background-color: $nbn-purple;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  padding: .25em;
+
+  a {
+    display: block;
+  }
+}
+
+.nbn-logo {
+  height: 2em;
+}
+
+.banner .grand-header h1 {
+  font-size: 3em !important;
+  text-transform: uppercase;
+  text-shadow: $black 2px 2px 0;
+
+  a {
+    color: lighten($nbn-purple, 65%) !important;
+  }
+
+  @include media($default-768) {
+    font-size: 4.5em !important;
+  }
+}

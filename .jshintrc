@@ -14,8 +14,12 @@
   "quotmark": true,
   "undef": true,
   "unused": true,
-  "strict": true,
+  "strict": false,
   "trailing": true,
   "smarttabs": true,
   "jquery": true
+  "predef": [
+    "d3",
+    "topojson"
+  ]
 }
